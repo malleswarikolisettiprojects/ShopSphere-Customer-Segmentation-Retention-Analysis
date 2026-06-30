@@ -213,6 +213,40 @@ Based on my analysis, I suggest the following recommendations:
 7. Open the Power BI dashboard and connect it to the exported CSV files.
 8. Refresh the dashboard to view the latest insights.
 
+## Project Structure
+
+ShopSphere-Customer-Segmentation-Retention-Analysis/
+│
+├── Dataset/
+│   ├── olist_customers_dataset.csv
+│   ├── olist_orders_dataset.csv
+│   ├── olist_order_items_dataset.csv
+│   └── olist_products_dataset.csv
+│
+├── SQL/
+│   └── ShopSphere_SQL.sql
+│
+├── Python/
+│   └── ShopSphere_Python.ipynb
+│
+├── PowerBI/
+│   └── ShopSphere_Dashboard.pbix
+│
+├── Outputs/
+│   ├── master_analysis_dataset.csv
+│   ├── rfm_table.csv
+│   ├── customer_churn_risk_scores.csv
+│   └── high_risk_customers.csv
+│   └── category_performance.csv
+│ 
+├── Images/
+│   ├── dashboard_page1.png
+│   ├── dashboard_page2.png
+│   └── dashboard_page3.png
+│   
+├── README.md
+
+
 ## Conclusion
 
 Working on this project helped me apply the concepts I learned in SQL, Python, Machine Learning, and Power BI to a real business problem. I learned how to prepare data, analyze customer behavior, build a churn prediction model, and create dashboards to present the results.
