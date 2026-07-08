@@ -185,10 +185,11 @@ risk category, churn_risk_score, monetary, recency to get information about risk
 - Customers with higher recency values (customers who had not purchased recently) were significantly more likely to churn.
 - Freight cost, shipping time, recency, frequency, and monetary value were identified as the most influential factors related to customer churn.
 - Customers who placed only one order and had long periods of inactivity showed the highest churn probability.
-- The Logistic Regression model successfully generated a Churn Risk Score (0–1) for every customer, enabling customer prioritization for retention campaigns with Accuracy : 0.99, 
-Precision: 0.99, 
-Recall   : 0.99,
-F1 Score : 0.99.
+- The Logistic Regression model successfully generated a Churn Risk Score (0–1) for every customer, enabling customer prioritization for retention campaigns with
+Accuracy : 0.9998393144081414, 
+Precision: 0.9997835263556663, 
+Recall   : 0.9998917514613552,
+F1 Score : 0.9998376359798669.
 - The interactive Power BI dashboard allows business users to monitor customer behavior, identify high-value customers, and target high-risk customers with personalized marketing strategies.
 
 ## Business Recommendations
@@ -212,40 +213,6 @@ Based on my analysis, I suggest the following recommendations:
 6. Open the Python notebook and run all cells to perform RFM analysis, clustering, correlation analysis, and churn prediction.
 7. Open the Power BI dashboard and connect it to the exported CSV files.
 8. Refresh the dashboard to view the latest insights.
-
-## Project Structure
-
-ShopSphere-Customer-Segmentation-Retention-Analysis/
-│
-├── Dataset/
-│   ├── olist_customers_dataset.csv
-│   ├── olist_orders_dataset.csv
-│   ├── olist_order_items_dataset.csv
-│   └── olist_products_dataset.csv
-│
-├── SQL/
-│   └── ShopSphere_SQL.sql
-│
-├── Python/
-│   └── ShopSphere_Python.ipynb
-│
-├── PowerBI/
-│   └── ShopSphere_Dashboard.pbix
-│
-├── Outputs/
-│   ├── master_analysis_dataset.csv
-│   ├── rfm_table.csv
-│   ├── customer_churn_risk_scores.csv
-│   └── high_risk_customers.csv
-│   └── category_performance.csv
-│ 
-├── Images/
-│   ├── dashboard_page1.png
-│   ├── dashboard_page2.png
-│   └── dashboard_page3.png
-│   
-├── README.md
-
 
 ## Conclusion
 
