@@ -186,10 +186,10 @@ risk category, churn_risk_score, monetary, recency to get information about risk
 - Freight cost, shipping time, recency, frequency, and monetary value were identified as the most influential factors related to customer churn.
 - Customers who placed only one order and had long periods of inactivity showed the highest churn probability.
 - The Logistic Regression model successfully generated a Churn Risk Score (0–1) for every customer, enabling customer prioritization for retention campaigns with
-Accuracy : 0.9998393144081414, 
-Precision: 0.9997835263556663, 
-Recall   : 0.9998917514613552,
-F1 Score : 0.9998376359798669.
+**Accuracy :** 0.9998393144081414, 
+**Precision :** 0.9997835263556663, 
+**Recall :** 0.9998917514613552,
+**F1 Score :** 0.9998376359798669.
 - The interactive Power BI dashboard allows business users to monitor customer behavior, identify high-value customers, and target high-risk customers with personalized marketing strategies.
 
 ## Business Recommendations
